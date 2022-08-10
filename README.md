@@ -16,3 +16,4 @@ https://github.com/henriquefuchs/sheets-google-java
 + paste your Google credentials into `resources/credentials.json`
 
 **3. Build and run the app using Gradle**
++ `gradle build run`
