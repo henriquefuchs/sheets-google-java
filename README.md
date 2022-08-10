@@ -17,3 +17,5 @@ https://github.com/henriquefuchs/sheets-google-java
 
 **3. Build and run the app using Gradle**
 + `gradle build run`
+
+**4. Follow CLI instructions**
