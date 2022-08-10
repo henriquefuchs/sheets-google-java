@@ -21,7 +21,7 @@ test {
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'SheetsQuickstart'
+mainClassName = 'Application'
 sourceCompatibility = 11
 targetCompatibility = 11
 version = '1.0'

@@ -40,7 +40,7 @@ public class InputService {
       }
 
     } catch (Exception e) {
-      System.err.println("Something went wrong, please try again.");
+      System.err.println(e.getMessage());
     }
 
     if (changedFromDefault) {
@@ -49,7 +49,6 @@ public class InputService {
       System.out.println("Target: " + target);
     }
   }
-
 
   public List<List<Object>> listAll() {
 
@@ -82,7 +81,7 @@ public class InputService {
 
   public void setLectures() {
 
-    String lectureRange = target.substring(0, 23) + "A2"; // "engenharia_de_software!A2"
+    String lectureRange = target.substring(0, 23) + "A2";
 
     try {
       Authentication studentAuthentication = new Authentication();
@@ -99,7 +98,7 @@ public class InputService {
         }
       }
     } catch (IOException | GeneralSecurityException e) {
-      System.err.println("Something went wrong, please try again. Java class: " + e.getMessage());
+      System.err.println("Error: " + e.getMessage());
     }
   }
 
